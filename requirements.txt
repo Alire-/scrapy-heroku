@@ -1,0 +1,4 @@
+# requirements.txt
+Scrapy
+scrapyd
+scrapy-heroku
