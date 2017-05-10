@@ -14,7 +14,7 @@ class FirstSpider(scrapy.Spider):
     
     
     def start_requests(self):
-        crawl_limit = 100000
+        crawl_limit = 10
         y = 0 
         crawl_counter = 0
         for x in range(0, crawl_limit):
