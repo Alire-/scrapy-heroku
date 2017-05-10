@@ -32,6 +32,7 @@ DATABASE = {
     'database': 'd9tc98abogo8en'
 }
 
+ITEM_PIPELINES = ['scraper_app.pipelines.LivingSocialPipeline']
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
