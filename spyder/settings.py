@@ -21,6 +21,18 @@ NEWSPIDER_MODULE = 'spyder.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+#my stuff
+
+DATABASE = {
+    'drivername': 'postgres',
+    'host': 'ec2-23-23-220-163.compute-1.amazonaws.com',
+    'port': '5432',
+    'username': 'ctoptxrfzlqtjl',
+    'password': 'a2f1c6913022fbf55883ef99a00db791f577edd6192ea06776f41e2782519cf9',
+    'database': 'd9tc98abogo8en'
+}
+
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
